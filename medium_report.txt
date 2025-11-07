@@ -1,0 +1,1710 @@
+=== V-260471 | medium ===
+	linux	/boot/vmlinuz-6.14.0-33-generic root=UUID=7b9cafbb-5aaf-4966-a702-ff5db2757043 ro  quiet splash $vt_handoff
+		linux	/boot/vmlinuz-6.14.0-33-generic root=UUID=7b9cafbb-5aaf-4966-a702-ff5db2757043 ro  quiet splash $vt_handoff
+		linux	/boot/vmlinuz-6.14.0-33-generic root=UUID=7b9cafbb-5aaf-4966-a702-ff5db2757043 ro recovery nomodeset dis_ucode_ldr 
+		linux	/boot/vmlinuz-6.14.0-29-generic root=UUID=7b9cafbb-5aaf-4966-a702-ff5db2757043 ro  quiet splash $vt_handoff
+		linux	/boot/vmlinuz-6.14.0-29-generic root=UUID=7b9cafbb-5aaf-4966-a702-ff5db2757043 ro recovery nomodeset dis_ucode_ldr 
+        linux    /boot/memtest86+x64.efi
+        linux   /boot/memtest86+x64.efi console=ttyS0,115200
+=== V-260473 | medium ===
+Unit kdump-tools.service could not be found.
+=== V-260474 | medium ===
+kernel.randomize_va_space = 2
+2
+=== V-260475 | medium ===
+[    0.000000] NX (Execute Disable) protection: active
+nx
+=== V-260477 | medium ===
+//Unattended-Upgrade::Remove-Unused-Kernel-Packages "true";
+//Unattended-Upgrade::Remove-Unused-Dependencies "false";
+=== V-260478 | medium ===
+ii  libpam-pwquality:amd64                         1.4.5-3build1                            amd64        PAM module to check password strength
+=== V-260484 | medium ===
+Disk /dev/loop0: 4 KiB, 4096 bytes, 8 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop1: 516.2 MiB, 541278208 bytes, 1057184 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop2: 63.77 MiB, 66871296 bytes, 130608 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop3: 73.92 MiB, 77512704 bytes, 151392 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop4: 73.91 MiB, 77500416 bytes, 151368 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop6: 249.22 MiB, 261324800 bytes, 510400 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop7: 11.13 MiB, 11673600 bytes, 22800 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/nvme0n1: 476.94 GiB, 512110190592 bytes, 1000215216 sectors
+Disk model: PC SN730 NVMe WDC 512GB                 
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: BD93DDDB-8071-4331-86BC-A475025DEF42
+
+Device           Start        End   Sectors   Size Type
+/dev/nvme0n1p1    2048    2203647   2201600     1G EFI System
+/dev/nvme0n1p2 2203648 1000212479 998008832 475.9G Linux filesystem
+
+
+Disk /dev/loop8: 18.49 MiB, 19386368 bytes, 37864 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop9: 91.69 MiB, 96141312 bytes, 187776 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop10: 516.01 MiB, 541073408 bytes, 1056784 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop11: 129.68 MiB, 135983104 bytes, 265592 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop12: 128.9 MiB, 135163904 bytes, 263992 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop13: 10.77 MiB, 11292672 bytes, 22056 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop14: 10.83 MiB, 11354112 bytes, 22176 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop15: 50.77 MiB, 53235712 bytes, 103976 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop16: 50.93 MiB, 53399552 bytes, 104296 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop17: 568 KiB, 581632 bytes, 1136 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop18: 576 KiB, 589824 bytes, 1152 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop19: 63.77 MiB, 66871296 bytes, 130608 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop20: 249.09 MiB, 261189632 bytes, 510136 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+=== V-260485 | medium ===
+=== V-260486 | medium ===
+=== V-260487 | medium ===
+=== V-260488 | medium ===
+/var/log 775
+=== V-260489 | medium ===
+/var/log/alternatives.log.4.gz 644
+/var/log/dpkg.log.1 644
+/var/log/vmware/vmware-usbarb-1745.log 644
+/var/log/vmware/vmware-usbarb-1703.log 644
+/var/log/vmware/vmware-usbarb-1764.log 644
+/var/log/vmware/vmware-usbarb-57750.log 644
+/var/log/vmware/vmware-usbarb-1727.log 644
+/var/log/vmware/vmware-usbarb-1707.log 644
+/var/log/fontconfig.log 644
+/var/log/alternatives.log.1 644
+/var/log/gpu-manager-switch.log 644
+/var/log/unattended-upgrades/unattended-upgrades.log.1.gz 644
+/var/log/unattended-upgrades/unattended-upgrades-dpkg.log.1.gz 644
+/var/log/unattended-upgrades/unattended-upgrades.log.5.gz 644
+/var/log/unattended-upgrades/unattended-upgrades-dpkg.log.5.gz 644
+/var/log/unattended-upgrades/unattended-upgrades-dpkg.log 644
+/var/log/unattended-upgrades/unattended-upgrades.log.2.gz 644
+/var/log/unattended-upgrades/unattended-upgrades.log.4.gz 644
+/var/log/unattended-upgrades/unattended-upgrades-dpkg.log.4.gz 644
+/var/log/unattended-upgrades/unattended-upgrades-dpkg.log.6.gz 644
+/var/log/unattended-upgrades/unattended-upgrades-dpkg.log.2.gz 644
+/var/log/unattended-upgrades/unattended-upgrades.log 644
+/var/log/unattended-upgrades/unattended-upgrades-shutdown.log 644
+/var/log/unattended-upgrades/unattended-upgrades.log.6.gz 644
+/var/log/unattended-upgrades/unattended-upgrades.log.3.gz 644
+/var/log/unattended-upgrades/unattended-upgrades-dpkg.log.3.gz 644
+/var/log/dpkg.log.3.gz 644
+/var/log/dpkg.log 644
+/var/log/gpu-manager.log 644
+/var/log/dpkg.log.2.gz 644
+/var/log/dpkg.log.7.gz 644
+/var/log/alternatives.log.3.gz 644
+/var/log/alternatives.log 644
+/var/log/alternatives.log.6.gz 644
+/var/log/alternatives.log.2.gz 644
+/var/log/mullvad-vpn/daemon.log 644
+/var/log/mullvad-vpn/early-boot-fw.old.log 644
+/var/log/mullvad-vpn/old-install-daemon.log 644
+/var/log/mullvad-vpn/early-boot-fw.log 644
+/var/log/mullvad-vpn/daemon.old.log 644
+/var/log/dpkg.log.8.gz 644
+/var/log/sysstat/sa06 644
+/var/log/sysstat/sa07 644
+/var/log/sysstat/sar06 644
+/var/log/apt/history.log 644
+/var/log/apt/history.log.6.gz 644
+/var/log/apt/history.log.2.gz 644
+/var/log/apt/history.log.7.gz 644
+/var/log/apt/eipp.log.xz 644
+/var/log/apt/history.log.8.gz 644
+/var/log/apt/history.log.1.gz 644
+/var/log/apt/history.log.5.gz 644
+/var/log/apt/history.log.4.gz 644
+/var/log/apt/history.log.3.gz 644
+/var/log/vmware-installer 644
+/var/log/dpkg.log.5.gz 644
+/var/log/alternatives.log.7.gz 644
+/var/log/bootstrap.log 644
+/var/log/ubuntu-advantage-apt-hook.log 644
+/var/log/dpkg.log.6.gz 644
+/var/log/vnetlib 644
+/var/log/btmp.1 660
+/var/log/faillog 644
+/var/log/timeshift/2025-10-10_10-00-01_backup.log 644
+/var/log/timeshift/2025-10-07_17-00-01_backup.log 644
+/var/log/timeshift/2025-10-11_13-00-01_backup.log 644
+/var/log/timeshift/2025-10-17_15-00-01_backup.log 644
+/var/log/timeshift/2025-10-07_16-00-01_backup.log 644
+/var/log/timeshift/2025-10-11_15-00-01_backup.log 644
+/var/log/timeshift/2025-11-07_16-00-01_backup.log 644
+/var/log/timeshift/2025-10-20_22-00-01_backup.log 644
+/var/log/timeshift/2025-10-17_11-00-01_backup.log 644
+/var/log/timeshift/2025-10-17_18-00-01_backup.log 644
+/var/log/timeshift/2025-10-09_16-00-01_backup.log 644
+/var/log/timeshift/2025-10-10_15-00-01_backup.log 644
+/var/log/timeshift/2025-10-20_11-00-01_backup.log 644
+/var/log/timeshift/2025-10-12_17-00-01_backup.log 644
+/var/log/timeshift/2025-10-09_17-00-01_backup.log 644
+/var/log/timeshift/2025-10-17_13-00-01_backup.log 644
+/var/log/timeshift/2025-10-17_16-00-01_backup.log 644
+/var/log/timeshift/2025-10-07_15-00-01_backup.log 644
+/var/log/timeshift/2025-10-17_17-00-01_backup.log 644
+/var/log/timeshift/2025-10-05_15-00-02_backup.log 644
+/var/log/timeshift/2025-10-17_14-00-01_backup.log 644
+/var/log/timeshift/2025-10-01_16-33-01_gui.log 644
+/var/log/timeshift/2025-10-18_11-00-01_backup.log 644
+/var/log/timeshift/2025-10-29_21-00-21_backup.log 644
+/var/log/timeshift/2025-10-11_16-00-01_backup.log 644
+/var/log/timeshift/2025-10-12_12-00-02_backup.log 644
+/var/log/timeshift/2025-10-23_20-00-01_backup.log 644
+/var/log/timeshift/2025-10-10_16-00-01_backup.log 644
+/var/log/timeshift/2025-10-05_21-00-01_backup.log 644
+/var/log/timeshift/2025-10-06_21-00-01_backup.log 644
+/var/log/timeshift/2025-10-10_17-00-01_backup.log 644
+/var/log/timeshift/2025-11-06_18-00-01_backup.log 644
+/var/log/timeshift/2025-10-08_21-00-01_backup.log 644
+/var/log/timeshift/2025-10-12_10-00-01_backup.log 644
+/var/log/timeshift/2025-10-17_12-00-01_backup.log 644
+/var/log/timeshift/2025-10-20_10-00-01_backup.log 644
+/var/log/timeshift/2025-10-20_19-00-01_backup.log 644
+/var/log/timeshift/2025-10-29_21-02-46_backup.log 644
+/var/log/alternatives.log.5.gz 644
+/var/log/installer/media-info 755
+/var/log/installer/casper-md5check.json 644
+/var/log/installer/curtin-install.log 644
+/var/log/installer/telemetry 644
+/var/log/installer/device-map.json 644
+/var/log/installer/ubuntu_bootstrap.log.4910 664
+/var/log/installer/block/probe-data.json 644
+/var/log/installer/block/discover.log 644
+/var/log/dpkg.log.4.gz 644
+=== V-260490 | medium ===
+/run/log/journal 2755
+/var/log/journal 2755
+/var/log/journal/79a66de390204255b2a0b2df53b7400f 2755
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@aa88f791f1e04b6c9ea0c1bec43df910-000000000004900a-00063e77736de35b.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@b4cf374340834c4e9e4810b00c50a347-000000000002bba4-000636acfd2c2e96.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@000638a59d351f35-eb1ae907ac1f4953.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@b4cf374340834c4e9e4810b00c50a347-000000000002c7dc-000636acfd7838a4.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@5154a45aaf374a9fa354f8ed6a342058-0000000000028171-0006354ae82c53cb.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063699ef0e2667-205d16c914cb0a7e.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@908ae7cfdaf44d8fb403530282f6500b-0000000000076bc0-000642f5d66cda0b.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@81ddede7b1024d3c9ed20c223bde851e-0000000000074554-000642423f935f50.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@000642f5d6297486-ed8bebceb1b93a97.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063ab74579482d-7f8faaff6da51d55.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@81ddede7b1024d3c9ed20c223bde851e-00000000000738aa-000642423f4c2a3d.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@9e01f8970ace4da3be2acd7905666d14-000000000006eb30-00064197eabc0a3d.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@fdeb009324d24450833a20c88212bff0-0000000000031a6f-000638a59cefe9d5.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@0006415cd231f5b6-3a5b5b4ea4a08334.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@ca066c127d62460b8daaf464aa00add6-000000000003a449-00063adaf60f2388.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@aa88f791f1e04b6c9ea0c1bec43df910-000000000004903a-00063e7774df7505.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@aa88f791f1e04b6c9ea0c1bec43df910-0000000000048ad5-00063e7771ef86ca.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@0006415cd1ea1c69-4d74ed2aac498085.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@791adb96f1dd4e44aa823f16948de965-00000000000468bb-00063e3e743028b9.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@e7a33f774f994feaabb1f099ba2a1f34-000000000002e10d-0006374bd5e2c95c.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@354608b8702e47efa75084a412c0345c-0000000000042f7d-00063e37e313985f.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@f6c2483e2e2f453f9ef39461769d52e1-0000000000049369-00063e7779e816e4.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@791adb96f1dd4e44aa823f16948de965-0000000000047503-00063e3e74a0722d.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063e77ca28edf2-52b4cab227ac5aeb.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@588531492ed845059f56a186b373913d-000000000002a815-00063699eecf1bf2.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@791adb96f1dd4e44aa823f16948de965-0000000000047502-00063e3e749fe0e6.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063dc2e5a8b901-298663f8638452c3.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@0006396032067cf8-8d8abd7574e3bad0.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@20e58d733f594776877010da6cb02de7-00000000000570f8-00063f648e897476.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@908ae7cfdaf44d8fb403530282f6500b-0000000000075f1a-000642f5d626f6d5.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@0006374bd5e56679-b4069018a8dcdf32.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@789e77b503684d608a720a0a688f7bdd-00000000000368c6-0006396033d5d20d.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@5154a45aaf374a9fa354f8ed6a342058-0000000000028170-0006354ae82be3a0.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@a13ff0dddd844cf9a2e3336cf302f8d0-0000000000071297-000641db8f616b24.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@f7eeff5989d643f5bac4088a27a693ff-000000000004c843-00063e77e699f687.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063ab745b89061-ceb02df869706206.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@789e77b503684d608a720a0a688f7bdd-00000000000368c2-0006396033bdbda2.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@354608b8702e47efa75084a412c0345c-0000000000043beb-00063e37e35540f5.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@000642423f936114-440f3102eb597b84.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@000636acfd7839d3-834ac33e150f3f76.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@000636acfd2e2a0b-23fe3e1758e125a0.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@20e58d733f594776877010da6cb02de7-0000000000057911-00063f6491c90cbd.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@9e01f8970ace4da3be2acd7905666d14-000000000006f7cd-00064197eafec8e4.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063c19b0ad35c9-90147ed3f05d251c.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063533e929c6a2-01d6567cde9ee490.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063c17e32f4f24-a9789ed3e5980316.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@8fdafea953e44459a468ed7bc20ab75c-000000000004dd7d-00063e781c510ea6.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@97d92f9db57b4ddca71b0b8dbf339071-0000000000025ce6-00063533e963d5fb.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@789e77b503684d608a720a0a688f7bdd-00000000000356df-00063960320460df.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@6be62bf087df4d7aa51cd544b8ac16d6-000000000006d054-0006415cd231f3c4.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063533e963d766-e43053bfbc36b54c.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@97d92f9db57b4ddca71b0b8dbf339071-00000000000250f3-00063533e9285158.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@354608b8702e47efa75084a412c0345c-000000000004417d-00063e37e7061667.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063e37e35542e2-8fc54789bdb0ceb3.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@0006374bd620e1ff-ca734b7104953e64.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@5154a45aaf374a9fa354f8ed6a342058-0000000000027580-0006354ae7e6a6bc.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@354608b8702e47efa75084a412c0345c-0000000000044175-00063e37e4d5e592.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063e77e62b3b56-cf884c22f7db0124.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@6be62bf087df4d7aa51cd544b8ac16d6-000000000006c3b6-0006415cd1e79476.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00064197eabeabad-82d69f014549402f.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@588531492ed845059f56a186b373913d-000000000002b46c-00063699ef0e24e9.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@6e92c60f970d499e97dd43fa0158cf8a-000000000003f45f-00063dc2e566a370.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@000641dceae058ce-a1561af0345c56cb.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@e7a33f774f994feaabb1f099ba2a1f34-000000000002ed9e-0006374bd620e068.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@fdeb009324d24450833a20c88212bff0-0000000000032ce3-000638a59fce4251.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@289bf713c1154f949922abccf86043e4-000000000005a082-00063f6c5565af28.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@aa88f791f1e04b6c9ea0c1bec43df910-0000000000048ad4-00063e7771ef16b0.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063c17e38b5909-2e9fdbd0d8db2540.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@aa88f791f1e04b6c9ea0c1bec43df910-0000000000047e76-00063e7771a6a320.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@289bf713c1154f949922abccf86043e4-000000000005a083-00063f6c55662ef1.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063699eed0f6bd-9481711295e5e940.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063c19b0663c45-20aca508fd5f59e4.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@0006396032445615-c4c5075663d195d3.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@f7eeff5989d643f5bac4088a27a693ff-000000000004bbbd-00063e77e628ac6e.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@8fdafea953e44459a468ed7bc20ab75c-000000000004dd7c-00063e781c509c61.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@8fdafea953e44459a468ed7bc20ab75c-000000000004d13e-00063e781c05622f.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@20e58d733f594776877010da6cb02de7-00000000000570f9-00063f648e89ea66.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@20e58d733f594776877010da6cb02de7-000000000005643f-00063f648e42d219.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@000642423f4efa68-2d8901e1f939cd37.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@8bb1ea07e41f40f3b19a5de437bbd264-000000000002891f-0006354b075ecff2.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063e37e315f636-910b3e4e7358db2c.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00064197eafecc05-53223fd9e9fe3bb7.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@7e71092984ae414fb9e070faeb69ed57-0000000000033fa4-000638fb8ab6cd73.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@000638a59cf227a1-d161623a97ed968f.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@289bf713c1154f949922abccf86043e4-0000000000059444-00063f6c551e8c1e.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063e77e699f8ef-99d5b06d1344edc3.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@789e77b503684d608a720a0a688f7bdd-000000000003633f-00063960324454a2.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@000641dcea9c1f4b-e3e7d0b68761eedd.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@fdeb009324d24450833a20c88212bff0-0000000000032715-000638a59d351da0.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@4dbfd82d08034dfd81f0968d6795d741-0000000000039526-00063ab745b88ec5.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@42f152f76bd74f478f66cd62df95e053-0000000000068362-000640d42318d3b1.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063dc2e568c37d-7751c98d23cf1157.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@fdeb009324d24450833a20c88212bff0-0000000000032cb8-000638a59e698428.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@4dbfd82d08034dfd81f0968d6795d741-0000000000038898-00063ab74576fcff.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@6e92c60f970d499e97dd43fa0158cf8a-00000000000400ce-00063dc2e5a8b6e4.journal 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@000642f5d66cdc20-e0a92ff63f913660.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063e77ca9ab916-424d47d02ad0e72f.journal~ 640
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@20e58d733f594776877010da6cb02de7-0000000000057908-00063f64901e15b3.journal 640
+=== V-260491 | medium ===
+/var/log/syslog 640
+=== V-260492 | medium ===
+stat: cannot statx '/sbin/auditctl': No such file or directory
+stat: cannot statx '/sbin/aureport': No such file or directory
+stat: cannot statx '/sbin/ausearch': No such file or directory
+stat: cannot statx '/sbin/autrace': No such file or directory
+stat: cannot statx '/sbin/auditd': No such file or directory
+stat: cannot statx '/sbin/audispd*': No such file or directory
+stat: cannot statx '/sbin/augenrules': No such file or directory
+=== V-260493 | medium ===
+=== V-260494 | medium ===
+=== V-260495 | medium ===
+=== V-260496 | medium ===
+find: File system loop detected; ‘/bin/X11’ is part of the same file system loop as ‘/bin’.
+/sbin/pppd dip
+find: File system loop detected; ‘/usr/bin/X11’ is part of the same file system loop as ‘/usr/bin’.
+/usr/sbin/pppd dip
+=== V-260497 | medium ===
+=== V-260498 | medium ===
+=== V-260499 | medium ===
+=== V-260500 | medium ===
+=== V-260501 | medium ===
+/run/log/journal root
+/var/log/journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f root
+=== V-260502 | medium ===
+/run/log/journal systemd-journal
+/var/log/journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f systemd-journal
+=== V-260503 | medium ===
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@aa88f791f1e04b6c9ea0c1bec43df910-000000000004900a-00063e77736de35b.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@b4cf374340834c4e9e4810b00c50a347-000000000002bba4-000636acfd2c2e96.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@000638a59d351f35-eb1ae907ac1f4953.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@b4cf374340834c4e9e4810b00c50a347-000000000002c7dc-000636acfd7838a4.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@5154a45aaf374a9fa354f8ed6a342058-0000000000028171-0006354ae82c53cb.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063699ef0e2667-205d16c914cb0a7e.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@908ae7cfdaf44d8fb403530282f6500b-0000000000076bc0-000642f5d66cda0b.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@81ddede7b1024d3c9ed20c223bde851e-0000000000074554-000642423f935f50.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@000642f5d6297486-ed8bebceb1b93a97.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063ab74579482d-7f8faaff6da51d55.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@81ddede7b1024d3c9ed20c223bde851e-00000000000738aa-000642423f4c2a3d.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@9e01f8970ace4da3be2acd7905666d14-000000000006eb30-00064197eabc0a3d.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@fdeb009324d24450833a20c88212bff0-0000000000031a6f-000638a59cefe9d5.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@0006415cd231f5b6-3a5b5b4ea4a08334.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@ca066c127d62460b8daaf464aa00add6-000000000003a449-00063adaf60f2388.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@aa88f791f1e04b6c9ea0c1bec43df910-000000000004903a-00063e7774df7505.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@aa88f791f1e04b6c9ea0c1bec43df910-0000000000048ad5-00063e7771ef86ca.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@0006415cd1ea1c69-4d74ed2aac498085.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@791adb96f1dd4e44aa823f16948de965-00000000000468bb-00063e3e743028b9.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@e7a33f774f994feaabb1f099ba2a1f34-000000000002e10d-0006374bd5e2c95c.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@354608b8702e47efa75084a412c0345c-0000000000042f7d-00063e37e313985f.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@f6c2483e2e2f453f9ef39461769d52e1-0000000000049369-00063e7779e816e4.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@791adb96f1dd4e44aa823f16948de965-0000000000047503-00063e3e74a0722d.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063e77ca28edf2-52b4cab227ac5aeb.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@588531492ed845059f56a186b373913d-000000000002a815-00063699eecf1bf2.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@791adb96f1dd4e44aa823f16948de965-0000000000047502-00063e3e749fe0e6.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063dc2e5a8b901-298663f8638452c3.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@0006396032067cf8-8d8abd7574e3bad0.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@20e58d733f594776877010da6cb02de7-00000000000570f8-00063f648e897476.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@908ae7cfdaf44d8fb403530282f6500b-0000000000075f1a-000642f5d626f6d5.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@0006374bd5e56679-b4069018a8dcdf32.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@789e77b503684d608a720a0a688f7bdd-00000000000368c6-0006396033d5d20d.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@5154a45aaf374a9fa354f8ed6a342058-0000000000028170-0006354ae82be3a0.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@a13ff0dddd844cf9a2e3336cf302f8d0-0000000000071297-000641db8f616b24.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@f7eeff5989d643f5bac4088a27a693ff-000000000004c843-00063e77e699f687.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063ab745b89061-ceb02df869706206.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@789e77b503684d608a720a0a688f7bdd-00000000000368c2-0006396033bdbda2.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@354608b8702e47efa75084a412c0345c-0000000000043beb-00063e37e35540f5.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@000642423f936114-440f3102eb597b84.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@000636acfd7839d3-834ac33e150f3f76.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@000636acfd2e2a0b-23fe3e1758e125a0.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@20e58d733f594776877010da6cb02de7-0000000000057911-00063f6491c90cbd.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@9e01f8970ace4da3be2acd7905666d14-000000000006f7cd-00064197eafec8e4.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063c19b0ad35c9-90147ed3f05d251c.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063533e929c6a2-01d6567cde9ee490.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063c17e32f4f24-a9789ed3e5980316.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@8fdafea953e44459a468ed7bc20ab75c-000000000004dd7d-00063e781c510ea6.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@97d92f9db57b4ddca71b0b8dbf339071-0000000000025ce6-00063533e963d5fb.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@789e77b503684d608a720a0a688f7bdd-00000000000356df-00063960320460df.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@6be62bf087df4d7aa51cd544b8ac16d6-000000000006d054-0006415cd231f3c4.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063533e963d766-e43053bfbc36b54c.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@97d92f9db57b4ddca71b0b8dbf339071-00000000000250f3-00063533e9285158.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@354608b8702e47efa75084a412c0345c-000000000004417d-00063e37e7061667.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063e37e35542e2-8fc54789bdb0ceb3.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@0006374bd620e1ff-ca734b7104953e64.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@5154a45aaf374a9fa354f8ed6a342058-0000000000027580-0006354ae7e6a6bc.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@354608b8702e47efa75084a412c0345c-0000000000044175-00063e37e4d5e592.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063e77e62b3b56-cf884c22f7db0124.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@6be62bf087df4d7aa51cd544b8ac16d6-000000000006c3b6-0006415cd1e79476.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00064197eabeabad-82d69f014549402f.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@588531492ed845059f56a186b373913d-000000000002b46c-00063699ef0e24e9.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@6e92c60f970d499e97dd43fa0158cf8a-000000000003f45f-00063dc2e566a370.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@000641dceae058ce-a1561af0345c56cb.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@e7a33f774f994feaabb1f099ba2a1f34-000000000002ed9e-0006374bd620e068.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@fdeb009324d24450833a20c88212bff0-0000000000032ce3-000638a59fce4251.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@289bf713c1154f949922abccf86043e4-000000000005a082-00063f6c5565af28.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@aa88f791f1e04b6c9ea0c1bec43df910-0000000000048ad4-00063e7771ef16b0.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063c17e38b5909-2e9fdbd0d8db2540.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@aa88f791f1e04b6c9ea0c1bec43df910-0000000000047e76-00063e7771a6a320.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@289bf713c1154f949922abccf86043e4-000000000005a083-00063f6c55662ef1.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063699eed0f6bd-9481711295e5e940.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063c19b0663c45-20aca508fd5f59e4.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@0006396032445615-c4c5075663d195d3.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@f7eeff5989d643f5bac4088a27a693ff-000000000004bbbd-00063e77e628ac6e.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@8fdafea953e44459a468ed7bc20ab75c-000000000004dd7c-00063e781c509c61.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@8fdafea953e44459a468ed7bc20ab75c-000000000004d13e-00063e781c05622f.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@20e58d733f594776877010da6cb02de7-00000000000570f9-00063f648e89ea66.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@20e58d733f594776877010da6cb02de7-000000000005643f-00063f648e42d219.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@000642423f4efa68-2d8901e1f939cd37.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@8bb1ea07e41f40f3b19a5de437bbd264-000000000002891f-0006354b075ecff2.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063e37e315f636-910b3e4e7358db2c.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00064197eafecc05-53223fd9e9fe3bb7.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@7e71092984ae414fb9e070faeb69ed57-0000000000033fa4-000638fb8ab6cd73.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@000638a59cf227a1-d161623a97ed968f.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@289bf713c1154f949922abccf86043e4-0000000000059444-00063f6c551e8c1e.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063e77e699f8ef-99d5b06d1344edc3.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@789e77b503684d608a720a0a688f7bdd-000000000003633f-00063960324454a2.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@000641dcea9c1f4b-e3e7d0b68761eedd.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@fdeb009324d24450833a20c88212bff0-0000000000032715-000638a59d351da0.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@4dbfd82d08034dfd81f0968d6795d741-0000000000039526-00063ab745b88ec5.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@42f152f76bd74f478f66cd62df95e053-0000000000068362-000640d42318d3b1.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063dc2e568c37d-7751c98d23cf1157.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@fdeb009324d24450833a20c88212bff0-0000000000032cb8-000638a59e698428.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@4dbfd82d08034dfd81f0968d6795d741-0000000000038898-00063ab74576fcff.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@6e92c60f970d499e97dd43fa0158cf8a-00000000000400ce-00063dc2e5a8b6e4.journal root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@000642f5d66cdc20-e0a92ff63f913660.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063e77ca9ab916-424d47d02ad0e72f.journal~ root
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@20e58d733f594776877010da6cb02de7-0000000000057908-00063f64901e15b3.journal root
+=== V-260504 | medium ===
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@aa88f791f1e04b6c9ea0c1bec43df910-000000000004900a-00063e77736de35b.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@b4cf374340834c4e9e4810b00c50a347-000000000002bba4-000636acfd2c2e96.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@000638a59d351f35-eb1ae907ac1f4953.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@b4cf374340834c4e9e4810b00c50a347-000000000002c7dc-000636acfd7838a4.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@5154a45aaf374a9fa354f8ed6a342058-0000000000028171-0006354ae82c53cb.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063699ef0e2667-205d16c914cb0a7e.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@908ae7cfdaf44d8fb403530282f6500b-0000000000076bc0-000642f5d66cda0b.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@81ddede7b1024d3c9ed20c223bde851e-0000000000074554-000642423f935f50.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@000642f5d6297486-ed8bebceb1b93a97.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063ab74579482d-7f8faaff6da51d55.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@81ddede7b1024d3c9ed20c223bde851e-00000000000738aa-000642423f4c2a3d.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@9e01f8970ace4da3be2acd7905666d14-000000000006eb30-00064197eabc0a3d.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@fdeb009324d24450833a20c88212bff0-0000000000031a6f-000638a59cefe9d5.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@0006415cd231f5b6-3a5b5b4ea4a08334.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@ca066c127d62460b8daaf464aa00add6-000000000003a449-00063adaf60f2388.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@aa88f791f1e04b6c9ea0c1bec43df910-000000000004903a-00063e7774df7505.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@aa88f791f1e04b6c9ea0c1bec43df910-0000000000048ad5-00063e7771ef86ca.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@0006415cd1ea1c69-4d74ed2aac498085.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@791adb96f1dd4e44aa823f16948de965-00000000000468bb-00063e3e743028b9.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@e7a33f774f994feaabb1f099ba2a1f34-000000000002e10d-0006374bd5e2c95c.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@354608b8702e47efa75084a412c0345c-0000000000042f7d-00063e37e313985f.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@f6c2483e2e2f453f9ef39461769d52e1-0000000000049369-00063e7779e816e4.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@791adb96f1dd4e44aa823f16948de965-0000000000047503-00063e3e74a0722d.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063e77ca28edf2-52b4cab227ac5aeb.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@588531492ed845059f56a186b373913d-000000000002a815-00063699eecf1bf2.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@791adb96f1dd4e44aa823f16948de965-0000000000047502-00063e3e749fe0e6.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063dc2e5a8b901-298663f8638452c3.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@0006396032067cf8-8d8abd7574e3bad0.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@20e58d733f594776877010da6cb02de7-00000000000570f8-00063f648e897476.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@908ae7cfdaf44d8fb403530282f6500b-0000000000075f1a-000642f5d626f6d5.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@0006374bd5e56679-b4069018a8dcdf32.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@789e77b503684d608a720a0a688f7bdd-00000000000368c6-0006396033d5d20d.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@5154a45aaf374a9fa354f8ed6a342058-0000000000028170-0006354ae82be3a0.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@a13ff0dddd844cf9a2e3336cf302f8d0-0000000000071297-000641db8f616b24.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@f7eeff5989d643f5bac4088a27a693ff-000000000004c843-00063e77e699f687.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063ab745b89061-ceb02df869706206.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@789e77b503684d608a720a0a688f7bdd-00000000000368c2-0006396033bdbda2.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@354608b8702e47efa75084a412c0345c-0000000000043beb-00063e37e35540f5.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@000642423f936114-440f3102eb597b84.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@000636acfd7839d3-834ac33e150f3f76.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@000636acfd2e2a0b-23fe3e1758e125a0.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@20e58d733f594776877010da6cb02de7-0000000000057911-00063f6491c90cbd.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@9e01f8970ace4da3be2acd7905666d14-000000000006f7cd-00064197eafec8e4.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063c19b0ad35c9-90147ed3f05d251c.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063533e929c6a2-01d6567cde9ee490.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063c17e32f4f24-a9789ed3e5980316.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@8fdafea953e44459a468ed7bc20ab75c-000000000004dd7d-00063e781c510ea6.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@97d92f9db57b4ddca71b0b8dbf339071-0000000000025ce6-00063533e963d5fb.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@789e77b503684d608a720a0a688f7bdd-00000000000356df-00063960320460df.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@6be62bf087df4d7aa51cd544b8ac16d6-000000000006d054-0006415cd231f3c4.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063533e963d766-e43053bfbc36b54c.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@97d92f9db57b4ddca71b0b8dbf339071-00000000000250f3-00063533e9285158.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@354608b8702e47efa75084a412c0345c-000000000004417d-00063e37e7061667.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063e37e35542e2-8fc54789bdb0ceb3.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@0006374bd620e1ff-ca734b7104953e64.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@5154a45aaf374a9fa354f8ed6a342058-0000000000027580-0006354ae7e6a6bc.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@354608b8702e47efa75084a412c0345c-0000000000044175-00063e37e4d5e592.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063e77e62b3b56-cf884c22f7db0124.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@6be62bf087df4d7aa51cd544b8ac16d6-000000000006c3b6-0006415cd1e79476.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00064197eabeabad-82d69f014549402f.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@588531492ed845059f56a186b373913d-000000000002b46c-00063699ef0e24e9.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@6e92c60f970d499e97dd43fa0158cf8a-000000000003f45f-00063dc2e566a370.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@000641dceae058ce-a1561af0345c56cb.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@e7a33f774f994feaabb1f099ba2a1f34-000000000002ed9e-0006374bd620e068.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@fdeb009324d24450833a20c88212bff0-0000000000032ce3-000638a59fce4251.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@289bf713c1154f949922abccf86043e4-000000000005a082-00063f6c5565af28.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@aa88f791f1e04b6c9ea0c1bec43df910-0000000000048ad4-00063e7771ef16b0.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063c17e38b5909-2e9fdbd0d8db2540.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@aa88f791f1e04b6c9ea0c1bec43df910-0000000000047e76-00063e7771a6a320.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@289bf713c1154f949922abccf86043e4-000000000005a083-00063f6c55662ef1.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063699eed0f6bd-9481711295e5e940.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063c19b0663c45-20aca508fd5f59e4.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@0006396032445615-c4c5075663d195d3.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@f7eeff5989d643f5bac4088a27a693ff-000000000004bbbd-00063e77e628ac6e.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@8fdafea953e44459a468ed7bc20ab75c-000000000004dd7c-00063e781c509c61.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@8fdafea953e44459a468ed7bc20ab75c-000000000004d13e-00063e781c05622f.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@20e58d733f594776877010da6cb02de7-00000000000570f9-00063f648e89ea66.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@20e58d733f594776877010da6cb02de7-000000000005643f-00063f648e42d219.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@000642423f4efa68-2d8901e1f939cd37.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@8bb1ea07e41f40f3b19a5de437bbd264-000000000002891f-0006354b075ecff2.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063e37e315f636-910b3e4e7358db2c.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00064197eafecc05-53223fd9e9fe3bb7.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@7e71092984ae414fb9e070faeb69ed57-0000000000033fa4-000638fb8ab6cd73.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@000638a59cf227a1-d161623a97ed968f.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@289bf713c1154f949922abccf86043e4-0000000000059444-00063f6c551e8c1e.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063e77e699f8ef-99d5b06d1344edc3.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@789e77b503684d608a720a0a688f7bdd-000000000003633f-00063960324454a2.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@000641dcea9c1f4b-e3e7d0b68761eedd.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@fdeb009324d24450833a20c88212bff0-0000000000032715-000638a59d351da0.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@4dbfd82d08034dfd81f0968d6795d741-0000000000039526-00063ab745b88ec5.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@42f152f76bd74f478f66cd62df95e053-0000000000068362-000640d42318d3b1.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@00063dc2e568c37d-7751c98d23cf1157.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@fdeb009324d24450833a20c88212bff0-0000000000032cb8-000638a59e698428.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@4dbfd82d08034dfd81f0968d6795d741-0000000000038898-00063ab74576fcff.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@6e92c60f970d499e97dd43fa0158cf8a-00000000000400ce-00063dc2e5a8b6e4.journal systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@000642f5d66cdc20-e0a92ff63f913660.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/user-1000@00063e77ca9ab916-424d47d02ad0e72f.journal~ systemd-journal
+/var/log/journal/79a66de390204255b2a0b2df53b7400f/system@20e58d733f594776877010da6cb02de7-0000000000057908-00063f64901e15b3.journal systemd-journal
+=== V-260505 | medium ===
+/usr/bin/journalctl root
+=== V-260506 | medium ===
+/usr/bin/journalctl root
+=== V-260507 | medium ===
+stat: cannot statx '/sbin/auditctl': No such file or directory
+stat: cannot statx '/sbin/aureport': No such file or directory
+stat: cannot statx '/sbin/ausearch': No such file or directory
+stat: cannot statx '/sbin/autrace': No such file or directory
+stat: cannot statx '/sbin/auditd': No such file or directory
+stat: cannot statx '/sbin/audisp*': No such file or directory
+stat: cannot statx '/sbin/augenrules': No such file or directory
+=== V-260508 | medium ===
+/var/log root
+=== V-260509 | medium ===
+/var/log syslog
+=== V-260510 | medium ===
+/var/log/syslog syslog
+=== V-260511 | medium ===
+/var/log/syslog adm
+=== V-260512 | medium ===
+/usr/bin/journalctl 755
+=== V-260513 | medium ===
+find: ‘/run/user/1000/gvfs’: Permission denied
+find: ‘/run/user/1000/doc’: Permission denied
+/snap/obsidian/50
+/snap/obsidian/49
+/home/pperk/vmware/kali-linux-2025.1a-vmware-amd64.vmwarevm/kali-linux-2025.1a-vmware-amd64.vmx.lck
+/home/backup/vmware/kali-linux-2025.1a-vmware-amd64.vmwarevm/kali-linux-2025.1a-vmware-amd64.vmx.lck
+=== V-260514 | medium ===
+ii  ufw                                            0.36.2-6                                 all          program for managing a Netfilter firewall
+=== V-260515 | medium ===
+Status: active
+=== V-260516 | medium ===
+     Active: active (exited) since Thu 2025-11-06 17:58:09 CST; 22h ago
+=== V-260517 | medium ===
+Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0               [::]:mdns          [::]:*          
+udp   UNCONN 0      0               [::]:59279         [::]:*          
+tcp   LISTEN 0      4096           [::1]:ipp           [::]:*          
+tcp   LISTEN 0      16                 *:30431            *:*          
+tcp   LISTEN 0      5               [::]:902           [::]:*          
+Status: active
+=== V-260518 | medium ===
+IPV4 (raw):
+Chain INPUT (policy DROP 28 packets, 2805 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+   44511 287960890 ufw-before-logging-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+   44511 287960890 ufw-before-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+     211    20570 ufw-after-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+     108     8725 ufw-after-logging-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+     108     8725 ufw-reject-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+     108     8725 ufw-track-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain FORWARD (policy DROP 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 DOCKER-USER  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+       0        0 DOCKER-FORWARD  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+       0        0 ufw-before-logging-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+       0        0 ufw-before-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+       0        0 ufw-after-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+       0        0 ufw-after-logging-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+       0        0 ufw-reject-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+       0        0 ufw-track-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain OUTPUT (policy ACCEPT 32 packets, 1691 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+   38184 13883269 ufw-before-logging-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+   38184 13883269 ufw-before-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    2414   281068 ufw-after-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    2414   281068 ufw-after-logging-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    2414   281068 ufw-reject-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    2414   281068 ufw-track-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain DOCKER (2 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 DROP       0    --  !br-a5eb5689ca2c br-a5eb5689ca2c  0.0.0.0/0            0.0.0.0/0           
+       0        0 DROP       0    --  !docker0 docker0  0.0.0.0/0            0.0.0.0/0           
+
+Chain DOCKER-BRIDGE (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 DOCKER     0    --  *      br-a5eb5689ca2c  0.0.0.0/0            0.0.0.0/0           
+       0        0 DOCKER     0    --  *      docker0  0.0.0.0/0            0.0.0.0/0           
+
+Chain DOCKER-CT (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 ACCEPT     0    --  *      br-a5eb5689ca2c  0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED
+       0        0 ACCEPT     0    --  *      docker0  0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED
+
+Chain DOCKER-FORWARD (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 DOCKER-CT  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+       0        0 DOCKER-ISOLATION-STAGE-1  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+       0        0 DOCKER-BRIDGE  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+       0        0 ACCEPT     0    --  br-a5eb5689ca2c *       0.0.0.0/0            0.0.0.0/0           
+       0        0 ACCEPT     0    --  docker0 *       0.0.0.0/0            0.0.0.0/0           
+
+Chain DOCKER-ISOLATION-STAGE-1 (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 DOCKER-ISOLATION-STAGE-2  0    --  br-a5eb5689ca2c !br-a5eb5689ca2c  0.0.0.0/0            0.0.0.0/0           
+       0        0 DOCKER-ISOLATION-STAGE-2  0    --  docker0 !docker0  0.0.0.0/0            0.0.0.0/0           
+
+Chain DOCKER-ISOLATION-STAGE-2 (2 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 DROP       0    --  *      docker0  0.0.0.0/0            0.0.0.0/0           
+       0        0 DROP       0    --  *      br-a5eb5689ca2c  0.0.0.0/0            0.0.0.0/0           
+
+Chain DOCKER-USER (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw-after-forward (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw-after-input (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+      86     6708 ufw-skip-to-policy-input  17   --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:137
+       8     1924 ufw-skip-to-policy-input  17   --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:138
+       0        0 ufw-skip-to-policy-input  6    --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:139
+       0        0 ufw-skip-to-policy-input  6    --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:445
+       9     3213 ufw-skip-to-policy-input  17   --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:67
+       0        0 ufw-skip-to-policy-input  17   --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:68
+       0        0 ufw-skip-to-policy-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0            ADDRTYPE match dst-type BROADCAST
+
+Chain ufw-after-logging-forward (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 LOG        0    --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 3/min burst 10 LOG flags 0 level 4 prefix "[UFW BLOCK] "
+
+Chain ufw-after-logging-input (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+      28     2805 LOG        0    --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 3/min burst 10 LOG flags 0 level 4 prefix "[UFW BLOCK] "
+
+Chain ufw-after-logging-output (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw-after-output (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw-before-forward (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 ACCEPT     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED
+       0        0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 3
+       0        0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 11
+       0        0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 12
+       0        0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 8
+       0        0 ufw-user-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-before-input (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+    4841   549256 ACCEPT     0    --  lo     *       0.0.0.0/0            0.0.0.0/0           
+   38532 287243219 ACCEPT     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED
+       0        0 ufw-logging-deny  0    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate INVALID
+       0        0 DROP       0    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate INVALID
+       0        0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 3
+       0        0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 11
+       0        0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 12
+       0        0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 8
+      25     8614 ACCEPT     17   --  *      *       0.0.0.0/0            0.0.0.0/0            udp spt:67 dpt:68
+    1033   153881 ufw-not-local  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+     902   139231 ACCEPT     17   --  *      *       0.0.0.0/0            224.0.0.251          udp dpt:5353
+       0        0 ACCEPT     17   --  *      *       0.0.0.0/0            239.255.255.250      udp dpt:1900
+     131    14650 ufw-user-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-before-logging-forward (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw-before-logging-input (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw-before-logging-output (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw-before-output (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+    4843   549336 ACCEPT     0    --  *      lo      0.0.0.0/0            0.0.0.0/0           
+   30927 13052865 ACCEPT     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED
+    2334   275148 ufw-user-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-logging-allow (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 LOG        0    --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 3/min burst 10 LOG flags 0 level 4 prefix "[UFW ALLOW] "
+
+Chain ufw-logging-deny (2 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 RETURN     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate INVALID limit: avg 3/min burst 10
+       0        0 LOG        0    --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 3/min burst 10 LOG flags 0 level 4 prefix "[UFW BLOCK] "
+
+Chain ufw-not-local (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       5      390 RETURN     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ADDRTYPE match dst-type LOCAL
+     930   142036 RETURN     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ADDRTYPE match dst-type MULTICAST
+      98    11455 RETURN     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ADDRTYPE match dst-type BROADCAST
+       0        0 ufw-logging-deny  0    --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 3/min burst 10
+       0        0 DROP       0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-reject-forward (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw-reject-input (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw-reject-output (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw-skip-to-policy-forward (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 DROP       0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-skip-to-policy-input (7 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+     103    11845 DROP       0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-skip-to-policy-output (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 ACCEPT     0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-track-forward (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw-track-input (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw-track-output (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+    1033    61996 ACCEPT     6    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate NEW
+    1309   213861 ACCEPT     17   --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate NEW
+
+Chain ufw-user-forward (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw-user-input (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw-user-limit (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 LOG        0    --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 3/min burst 5 LOG flags 0 level 4 prefix "[UFW LIMIT BLOCK] "
+       0        0 REJECT     0    --  *      *       0.0.0.0/0            0.0.0.0/0            reject-with icmp-port-unreachable
+
+Chain ufw-user-limit-accept (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 ACCEPT     0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-user-logging-forward (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw-user-logging-input (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw-user-logging-output (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw-user-output (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+Chain PREROUTING (policy ACCEPT 345 packets, 51680 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+      22     6290 DOCKER     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ADDRTYPE match dst-type LOCAL
+
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 3562 packets, 276873 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 DOCKER     0    --  *      *       0.0.0.0/0           !127.0.0.0/8          ADDRTYPE match dst-type LOCAL
+
+Chain POSTROUTING (policy ACCEPT 3580 packets, 279448 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 MASQUERADE  0    --  *      !docker0  172.17.0.0/16        0.0.0.0/0           
+       0        0 MASQUERADE  0    --  *      !br-a5eb5689ca2c  172.18.0.0/16        0.0.0.0/0           
+
+Chain DOCKER (2 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 RETURN     0    --  docker0 *       0.0.0.0/0            0.0.0.0/0           
+       0        0 RETURN     0    --  br-a5eb5689ca2c *       0.0.0.0/0            0.0.0.0/0           
+Chain PREROUTING (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain POSTROUTING (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+Chain PREROUTING (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+
+IPV6:
+Chain INPUT (policy DROP 1 packets, 655 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+     565    76531 ufw6-before-logging-input  0    --  *      *       ::/0                 ::/0                
+     565    76531 ufw6-before-input  0    --  *      *       ::/0                 ::/0                
+       1      655 ufw6-after-input  0    --  *      *       ::/0                 ::/0                
+       1      655 ufw6-after-logging-input  0    --  *      *       ::/0                 ::/0                
+       1      655 ufw6-reject-input  0    --  *      *       ::/0                 ::/0                
+       1      655 ufw6-track-input  0    --  *      *       ::/0                 ::/0                
+
+Chain FORWARD (policy DROP 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 DOCKER-USER  0    --  *      *       ::/0                 ::/0                
+       0        0 DOCKER-FORWARD  0    --  *      *       ::/0                 ::/0                
+       0        0 ufw6-before-logging-forward  0    --  *      *       ::/0                 ::/0                
+       0        0 ufw6-before-forward  0    --  *      *       ::/0                 ::/0                
+       0        0 ufw6-after-forward  0    --  *      *       ::/0                 ::/0                
+       0        0 ufw6-after-logging-forward  0    --  *      *       ::/0                 ::/0                
+       0        0 ufw6-reject-forward  0    --  *      *       ::/0                 ::/0                
+       0        0 ufw6-track-forward  0    --  *      *       ::/0                 ::/0                
+
+Chain OUTPUT (policy ACCEPT 18 packets, 1888 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+     243    25246 ufw6-before-logging-output  0    --  *      *       ::/0                 ::/0                
+     243    25246 ufw6-before-output  0    --  *      *       ::/0                 ::/0                
+     126    16018 ufw6-after-output  0    --  *      *       ::/0                 ::/0                
+     126    16018 ufw6-after-logging-output  0    --  *      *       ::/0                 ::/0                
+     126    16018 ufw6-reject-output  0    --  *      *       ::/0                 ::/0                
+     126    16018 ufw6-track-output  0    --  *      *       ::/0                 ::/0                
+
+Chain DOCKER (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain DOCKER-BRIDGE (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain DOCKER-CT (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain DOCKER-FORWARD (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 DOCKER-CT  0    --  *      *       ::/0                 ::/0                
+       0        0 DOCKER-ISOLATION-STAGE-1  0    --  *      *       ::/0                 ::/0                
+       0        0 DOCKER-BRIDGE  0    --  *      *       ::/0                 ::/0                
+
+Chain DOCKER-ISOLATION-STAGE-1 (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain DOCKER-ISOLATION-STAGE-2 (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain DOCKER-USER (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw6-after-forward (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw6-after-input (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 ufw6-skip-to-policy-input  17   --  *      *       ::/0                 ::/0                 udp dpt:137
+       0        0 ufw6-skip-to-policy-input  17   --  *      *       ::/0                 ::/0                 udp dpt:138
+       0        0 ufw6-skip-to-policy-input  6    --  *      *       ::/0                 ::/0                 tcp dpt:139
+       0        0 ufw6-skip-to-policy-input  6    --  *      *       ::/0                 ::/0                 tcp dpt:445
+       0        0 ufw6-skip-to-policy-input  17   --  *      *       ::/0                 ::/0                 udp dpt:546
+       0        0 ufw6-skip-to-policy-input  17   --  *      *       ::/0                 ::/0                 udp dpt:547
+
+Chain ufw6-after-logging-forward (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 LOG        0    --  *      *       ::/0                 ::/0                 limit: avg 3/min burst 10 LOG flags 0 level 4 prefix "[UFW BLOCK] "
+
+Chain ufw6-after-logging-input (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       1      655 LOG        0    --  *      *       ::/0                 ::/0                 limit: avg 3/min burst 10 LOG flags 0 level 4 prefix "[UFW BLOCK] "
+
+Chain ufw6-after-logging-output (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw6-after-output (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw6-before-forward (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 DROP       0    --  *      *       ::/0                 ::/0                 rt type:0
+       0        0 ACCEPT     0    --  *      *       ::/0                 ::/0                 ctstate RELATED,ESTABLISHED
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 1
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 2
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 3
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 4
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 128
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 129
+       0        0 ufw6-user-forward  0    --  *      *       ::/0                 ::/0                
+
+Chain ufw6-before-input (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       6      432 ACCEPT     0    --  lo     *       ::/0                 ::/0                
+       0        0 DROP       0    --  *      *       ::/0                 ::/0                 rt type:0
+       0        0 ACCEPT     0    --  *      *       ::/0                 ::/0                 ctstate RELATED,ESTABLISHED
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 129
+       0        0 ufw6-logging-deny  0    --  *      *       ::/0                 ::/0                 ctstate INVALID
+       0        0 DROP       0    --  *      *       ::/0                 ::/0                 ctstate INVALID
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 1
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 2
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 3
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 4
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 128
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 133 HL match HL == 255
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 134 HL match HL == 255
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 135 HL match HL == 255
+      10      720 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 136 HL match HL == 255
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 141 HL match HL == 255
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 142 HL match HL == 255
+      24     1824 ACCEPT     58   --  *      *       fe80::/10            ::/0                 ipv6-icmptype 130
+       0        0 ACCEPT     58   --  *      *       fe80::/10            ::/0                 ipv6-icmptype 131
+       0        0 ACCEPT     58   --  *      *       fe80::/10            ::/0                 ipv6-icmptype 132
+       0        0 ACCEPT     58   --  *      *       fe80::/10            ::/0                 ipv6-icmptype 143
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 148 HL match HL == 255
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 149 HL match HL == 255
+       0        0 ACCEPT     58   --  *      *       fe80::/10            ::/0                 ipv6-icmptype 151 HL match HL == 1
+       0        0 ACCEPT     58   --  *      *       fe80::/10            ::/0                 ipv6-icmptype 152 HL match HL == 1
+       0        0 ACCEPT     58   --  *      *       fe80::/10            ::/0                 ipv6-icmptype 153 HL match HL == 1
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 144
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 145
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 146
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 147
+       0        0 ACCEPT     17   --  *      *       fe80::/10            fe80::/10            udp spt:547 dpt:546
+     524    72900 ACCEPT     17   --  *      *       ::/0                 ff02::fb             udp dpt:5353
+       0        0 ACCEPT     17   --  *      *       ::/0                 ff02::f              udp dpt:1900
+       1      655 ufw6-user-input  0    --  *      *       ::/0                 ::/0                
+
+Chain ufw6-before-logging-forward (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw6-before-logging-input (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw6-before-logging-output (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw6-before-output (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       6      432 ACCEPT     0    --  *      lo      ::/0                 ::/0                
+       0        0 DROP       0    --  *      *       ::/0                 ::/0                 rt type:0
+       0        0 ACCEPT     0    --  *      *       ::/0                 ::/0                 ctstate RELATED,ESTABLISHED
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 1
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 2
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 3
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 4
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 128
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 129
+      35     1680 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 133 HL match HL == 255
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 136 HL match HL == 255
+       5      360 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 135 HL match HL == 255
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 134 HL match HL == 255
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 141 HL match HL == 255
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 142 HL match HL == 255
+       0        0 ACCEPT     58   --  *      *       fe80::/10            ::/0                 ipv6-icmptype 130
+       0        0 ACCEPT     58   --  *      *       fe80::/10            ::/0                 ipv6-icmptype 131
+       0        0 ACCEPT     58   --  *      *       fe80::/10            ::/0                 ipv6-icmptype 132
+      71     6756 ACCEPT     58   --  *      *       fe80::/10            ::/0                 ipv6-icmptype 143
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 148 HL match HL == 255
+       0        0 ACCEPT     58   --  *      *       ::/0                 ::/0                 ipv6-icmptype 149 HL match HL == 255
+       0        0 ACCEPT     58   --  *      *       fe80::/10            ::/0                 ipv6-icmptype 151 HL match HL == 1
+       0        0 ACCEPT     58   --  *      *       fe80::/10            ::/0                 ipv6-icmptype 152 HL match HL == 1
+       0        0 ACCEPT     58   --  *      *       fe80::/10            ::/0                 ipv6-icmptype 153 HL match HL == 1
+     126    16018 ufw6-user-output  0    --  *      *       ::/0                 ::/0                
+
+Chain ufw6-logging-allow (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 LOG        0    --  *      *       ::/0                 ::/0                 limit: avg 3/min burst 10 LOG flags 0 level 4 prefix "[UFW ALLOW] "
+
+Chain ufw6-logging-deny (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 RETURN     0    --  *      *       ::/0                 ::/0                 ctstate INVALID limit: avg 3/min burst 10
+       0        0 LOG        0    --  *      *       ::/0                 ::/0                 limit: avg 3/min burst 10 LOG flags 0 level 4 prefix "[UFW BLOCK] "
+
+Chain ufw6-reject-forward (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw6-reject-input (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw6-reject-output (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw6-skip-to-policy-forward (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 DROP       0    --  *      *       ::/0                 ::/0                
+
+Chain ufw6-skip-to-policy-input (6 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 DROP       0    --  *      *       ::/0                 ::/0                
+
+Chain ufw6-skip-to-policy-output (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 ACCEPT     0    --  *      *       ::/0                 ::/0                
+
+Chain ufw6-track-forward (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw6-track-input (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw6-track-output (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 ACCEPT     6    --  *      *       ::/0                 ::/0                 ctstate NEW
+     108    14130 ACCEPT     17   --  *      *       ::/0                 ::/0                 ctstate NEW
+
+Chain ufw6-user-forward (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw6-user-input (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw6-user-limit (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 LOG        0    --  *      *       ::/0                 ::/0                 limit: avg 3/min burst 5 LOG flags 0 level 4 prefix "[UFW LIMIT BLOCK] "
+       0        0 REJECT     0    --  *      *       ::/0                 ::/0                 reject-with icmp6-port-unreachable
+
+Chain ufw6-user-limit-accept (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 ACCEPT     0    --  *      *       ::/0                 ::/0                
+
+Chain ufw6-user-logging-forward (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw6-user-logging-input (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw6-user-logging-output (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain ufw6-user-output (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+Chain PREROUTING (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain POSTROUTING (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+Chain PREROUTING (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+=== V-260522 | medium ===
+net.ipv4.tcp_syncookies = 1
+/etc/sysctl.d/99-sysctl.conf:#net.ipv4.tcp_syncookies=1
+/etc/sysctl.conf:#net.ipv4.tcp_syncookies=1
+=== V-260525 | medium ===
+Ubuntu 24.04.3 LTS
+=== V-260527 | medium ===
+=== V-260528 | medium ===
+=== V-260530 | medium ===
+=== V-260531 | medium ===
+=== V-260532 | medium ===
+=== V-260533 | medium ===
+=== V-260534 | medium ===
+=== V-260535 | medium ===
+# banner-message-enable=true
+=== V-260536 | medium ===
+# banner-message-text='Welcome'
+=== V-260537 | medium ===
+true
+=== V-260538 | medium ===
+true
+uint32 0
+uint32 300
+=== V-260540 | medium ===
+=== V-260541 | medium ===
+Inter-| sta-|   Quality        |   Discarded packets               | Missed | WE
+ face | tus | link level noise |  nwid  crypt   frag  retry   misc | beacon | 22
+wlp0s20f3: 0000   47.  -63.  -256        0      0      0      0    266        0
+=== V-260542 | medium ===
+root L 2025-02-15 0 99999 7 -1
+=== V-260543 | medium ===
+=== V-260545 | medium ===
+#	PASS_MIN_DAYS	Minimum number of days allowed between password changes.
+PASS_MIN_DAYS	0
+=== V-260546 | medium ===
+#	PASS_MAX_DAYS	Maximum number of days a password may be used.
+PASS_MAX_DAYS	99999
+=== V-260547 | medium ===
+# INACTIVE=-1
+=== V-260553 | medium ===
+=== V-260554 | medium ===
+=== V-260555 | medium ===
+UMASK		022
+=== V-260556 | medium ===
+ii  apparmor                                       4.0.1really4.0.1-0ubuntu0.24.04.4        amd64        user-space parser utility for AppArmor
+ii  libapparmor1:amd64                             4.0.1really4.0.1-0ubuntu0.24.04.4        amd64        changehat AppArmor library
+=== V-260557 | medium ===
+enabled
+active
+163 profiles are loaded.
+64 profiles are in enforce mode.
+6 profiles are in complain mode.
+0 profiles are in prompt mode.
+0 profiles are in kill mode.
+93 profiles are in unconfined mode.
+37 processes have profiles defined.
+31 processes are unconfined but have a profile defined.
+=== V-260558 | medium ===
+=== V-260560 | medium ===
+# ucredit = 0
+=== V-260561 | medium ===
+# lcredit = 0
+=== V-260562 | medium ===
+# dcredit = 0
+=== V-260563 | medium ===
+# ocredit = 0
+=== V-260564 | medium ===
+# dictcheck = 1
+=== V-260565 | medium ===
+# minlen = 8
+=== V-260566 | medium ===
+# difok = 1
+=== V-260567 | medium ===
+# enforcing = 1
+password	requisite			pam_pwquality.so retry=3
+=== V-260569 | medium ===
+password	[success=2 default=ignore]	pam_unix.so obscure use_authtok try_first_pass yescrypt
+=== V-260572 | medium ===
+ENCRYPT_METHOD SHA512
+=== V-260573 | medium ===
+=== V-260574 | medium ===
+=== V-260575 | medium ===
+=== V-260576 | medium ===
+awk: cannot open "/etc/pam_pkcs11/pam_pkcs11.conf" (No such file or directory)
+grep: /etc/pam_pkcs11/pam_pkcs11.conf: No such file or directory
+=== V-260577 | medium ===
+grep: /etc/pam_pkcs11/pam_pkcs11.conf: No such file or directory
+awk: cannot open "/etc/pam_pkcs11/pam_pkcs11.conf" (No such file or directory)
+=== V-260578 | medium ===
+grep: /etc/pam_pkcs11/pam_pkcs11.conf: No such file or directory
+=== V-260580 | medium ===
+002c0b4f.0
+0179095f.0
+02265526.0
+062cdee6.0
+064e0aa9.0
+06dc52d5.0
+08063a00.0
+09789157.0
+0a775a30.0
+0b1b94ef.0
+0b9bc432.0
+0bf05006.0
+0c31d5ce.0
+0f5dc4f3.0
+0f6fa695.0
+1001acf7.0
+106f3e4d.0
+14bc7599.0
+18856ac4.0
+1cef98f5.0
+1d3472b9.0
+1e08bfd1.0
+1e09d511.0
+228f89db.0
+244b5494.0
+2923b3f9.0
+2ae6433e.0
+2b349938.0
+32888f65.0
+3513523f.0
+3bde41ac.0
+3e359ba6.0
+3fb36b73.0
+40193066.0
+4042bcee.0
+40547a79.0
+406c9bb1.0
+48bec511.0
+4b718d9b.0
+4bfab552.0
+4f316efb.0
+4fd49c6c.0
+5443e9e3.0
+54657681.0
+57bcb2da.0
+5860aaa6.0
+5931b5bc.0
+5a3bcb9c.0
+5ad8a5d6.0
+5cd81ad7.0
+5e98733a.0
+5f15c80c.0
+5f618aec.0
+607986c7.0
+626dceaf.0
+653b494a.0
+68dd7389.0
+6b99d060.0
+6d41d539.0
+6fa5da56.0
+706f604c.0
+749e9e03.0
+75d1b2ed.0
+76faf6c0.0
+7719f463.0
+773e07ad.0
+7a3adc42.0
+7a780d93.0
+7f3d5d1d.0
+8160b96c.0
+81f2d2b1.0
+8312c4c1.0
+8508e720.0
+865fbdf9.0
+8cb5ee0f.0
+8d86cdd1.0
+8d89cda1.0
+8f103249.0
+9046744a.0
+90c5a3c8.0
+930ac5d2.0
+93bc0acc.0
+9482e63a.0
+9846683b.0
+988a38cb.0
+9b46e03d.0
+9b5697b0.0
+9bf03295.0
+9c8dfbd4.0
+9d04f354.0
+9ef4a08a.0
+9f727ac7.0
+a3418fda.0
+a89d74c2.0
+a94d09e5.0
+ACCVRAIZ1.pem
+AC_RAIZ_FNMT-RCM.pem
+AC_RAIZ_FNMT-RCM_SERVIDORES_SEGUROS.pem
+Actalis_Authentication_Root_CA.pem
+aee5f10d.0
+AffirmTrust_Commercial.pem
+AffirmTrust_Networking.pem
+AffirmTrust_Premium_ECC.pem
+AffirmTrust_Premium.pem
+Amazon_Root_CA_1.pem
+Amazon_Root_CA_2.pem
+Amazon_Root_CA_3.pem
+Amazon_Root_CA_4.pem
+ANF_Secure_Server_Root_CA.pem
+Atos_TrustedRoot_2011.pem
+Atos_TrustedRoot_Root_CA_ECC_TLS_2021.pem
+Atos_TrustedRoot_Root_CA_RSA_TLS_2021.pem
+Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+b0e59380.0
+b1159c4c.0
+b433981b.0
+b66938e9.0
+b727005e.0
+b7a5b843.0
+b81b93f0.0
+Baltimore_CyberTrust_Root.pem
+bf53fb88.0
+BJCA_Global_Root_CA1.pem
+BJCA_Global_Root_CA2.pem
+Buypass_Class_2_Root_CA.pem
+Buypass_Class_3_Root_CA.pem
+c01eb047.0
+c28a8a30.0
+ca6e4ad9.0
+ca-certificates.crt
+CA_Disig_Root_R2.pem
+cbf06781.0
+cc450945.0
+cd58d51e.0
+cd8c0d63.0
+ce5e74ef.0
+Certainly_Root_E1.pem
+Certainly_Root_R1.pem
+Certigna.pem
+Certigna_Root_CA.pem
+certSIGN_Root_CA_G2.pem
+certSIGN_ROOT_CA.pem
+Certum_EC-384_CA.pem
+Certum_Trusted_Network_CA_2.pem
+Certum_Trusted_Network_CA.pem
+Certum_Trusted_Root_CA.pem
+CFCA_EV_ROOT.pem
+CommScope_Public_Trust_ECC_Root-01.pem
+CommScope_Public_Trust_ECC_Root-02.pem
+CommScope_Public_Trust_RSA_Root-01.pem
+CommScope_Public_Trust_RSA_Root-02.pem
+Comodo_AAA_Services_root.pem
+COMODO_Certification_Authority.pem
+COMODO_ECC_Certification_Authority.pem
+COMODO_RSA_Certification_Authority.pem
+d4dae3dd.0
+d52c538d.0
+d6325660.0
+d7e8dc79.0
+d887a5bb.0
+da0cfd1d.0
+dc4d6a89.0
+dd8e9d41.0
+de6d66f3.0
+DigiCert_Assured_ID_Root_CA.pem
+DigiCert_Assured_ID_Root_G2.pem
+DigiCert_Assured_ID_Root_G3.pem
+DigiCert_Global_Root_CA.pem
+DigiCert_Global_Root_G2.pem
+DigiCert_Global_Root_G3.pem
+DigiCert_High_Assurance_EV_Root_CA.pem
+DigiCert_TLS_ECC_P384_Root_G5.pem
+DigiCert_TLS_RSA4096_Root_G5.pem
+DigiCert_Trusted_Root_G4.pem
+D-TRUST_BR_Root_CA_1_2020.pem
+D-TRUST_EV_Root_CA_1_2020.pem
+D-TRUST_Root_Class_3_CA_2_2009.pem
+D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+e113c810.0
+e18bfb83.0
+e35234b1.0
+e36a6752.0
+e73d606e.0
+e868b802.0
+e8de2f56.0
+ecccd8db.0
+ed858448.0
+ee64a828.0
+eed8c118.0
+ef954a4e.0
+emSign_ECC_Root_CA_-_C3.pem
+emSign_ECC_Root_CA_-_G3.pem
+emSign_Root_CA_-_C1.pem
+emSign_Root_CA_-_G1.pem
+Entrust.net_Premium_2048_Secure_Server_CA.pem
+Entrust_Root_Certification_Authority_-_EC1.pem
+Entrust_Root_Certification_Authority_-_G2.pem
+Entrust_Root_Certification_Authority_-_G4.pem
+Entrust_Root_Certification_Authority.pem
+ePKI_Root_Certification_Authority.pem
+e-Szigno_Root_CA_2017.pem
+f081611a.0
+f0c70a8d.0
+f249de83.0
+f30dd6ad.0
+f3377b1b.0
+f387163d.0
+f39fc864.0
+f51bb24c.0
+fa5da96b.0
+fb717492.0
+fc5a8f99.0
+fd64f3fc.0
+fe8a2cd8.0
+feffd413.0
+ff34af3f.0
+GDCA_TrustAUTH_R5_ROOT.pem
+GlobalSign_ECC_Root_CA_-_R4.pem
+GlobalSign_ECC_Root_CA_-_R5.pem
+GlobalSign_Root_CA.pem
+GlobalSign_Root_CA_-_R3.pem
+GlobalSign_Root_CA_-_R6.pem
+GlobalSign_Root_E46.pem
+GlobalSign_Root_R46.pem
+GLOBALTRUST_2020.pem
+Go_Daddy_Class_2_CA.pem
+Go_Daddy_Root_Certificate_Authority_-_G2.pem
+GTS_Root_R1.pem
+GTS_Root_R2.pem
+GTS_Root_R3.pem
+GTS_Root_R4.pem
+HARICA_TLS_ECC_Root_CA_2021.pem
+HARICA_TLS_RSA_Root_CA_2021.pem
+Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+HiPKI_Root_CA_-_G1.pem
+Hongkong_Post_Root_CA_3.pem
+IdenTrust_Commercial_Root_CA_1.pem
+IdenTrust_Public_Sector_Root_CA_1.pem
+ISRG_Root_X1.pem
+ISRG_Root_X2.pem
+Izenpe.com.pem
+Microsec_e-Szigno_Root_CA_2009.pem
+Microsoft_ECC_Root_Certificate_Authority_2017.pem
+Microsoft_RSA_Root_Certificate_Authority_2017.pem
+NAVER_Global_Root_Certification_Authority.pem
+NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem
+OISTE_WISeKey_Global_Root_GB_CA.pem
+OISTE_WISeKey_Global_Root_GC_CA.pem
+QuoVadis_Root_CA_1_G3.pem
+QuoVadis_Root_CA_2_G3.pem
+QuoVadis_Root_CA_2.pem
+QuoVadis_Root_CA_3_G3.pem
+QuoVadis_Root_CA_3.pem
+Sectigo_Public_Server_Authentication_Root_E46.pem
+Sectigo_Public_Server_Authentication_Root_R46.pem
+Secure_Global_CA.pem
+SecureSign_RootCA11.pem
+SecureTrust_CA.pem
+Security_Communication_ECC_RootCA1.pem
+Security_Communication_RootCA2.pem
+Security_Communication_RootCA3.pem
+Security_Communication_Root_CA.pem
+ssl-cert-snakeoil.pem
+SSL.com_EV_Root_Certification_Authority_ECC.pem
+SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
+SSL.com_Root_Certification_Authority_ECC.pem
+SSL.com_Root_Certification_Authority_RSA.pem
+SSL.com_TLS_ECC_Root_CA_2022.pem
+SSL.com_TLS_RSA_Root_CA_2022.pem
+Starfield_Class_2_CA.pem
+Starfield_Root_Certificate_Authority_-_G2.pem
+Starfield_Services_Root_Certificate_Authority_-_G2.pem
+SwissSign_Gold_CA_-_G2.pem
+SwissSign_Silver_CA_-_G2.pem
+SZAFIR_ROOT_CA2.pem
+Telia_Root_CA_v2.pem
+TeliaSonera_Root_CA_v1.pem
+TrustAsia_Global_Root_CA_G3.pem
+TrustAsia_Global_Root_CA_G4.pem
+Trustwave_Global_Certification_Authority.pem
+Trustwave_Global_ECC_P256_Certification_Authority.pem
+Trustwave_Global_ECC_P384_Certification_Authority.pem
+T-TeleSec_GlobalRoot_Class_2.pem
+T-TeleSec_GlobalRoot_Class_3.pem
+TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+TunTrust_Root_CA.pem
+TWCA_Global_Root_CA.pem
+TWCA_Root_Certification_Authority.pem
+UCA_Extended_Validation_Root.pem
+UCA_Global_G2_Root.pem
+USERTrust_ECC_Certification_Authority.pem
+USERTrust_RSA_Certification_Authority.pem
+vTrus_ECC_Root_CA.pem
+vTrus_Root_CA.pem
+XRamp_Global_CA_Root.pem
+=== V-260582 | medium ===
+=== V-260583 | medium ===
+sudo: aide: command not found
+=== V-260584 | medium ===
+grep: /etc/default/aide: No such file or directory
+=== V-260585 | medium ===
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 aide-common all 0.18.6-2ubuntu0.1 [82.2 kB]
+Fetched 82.2 kB in 1s (129 kB/s)
+tar: ./usr/share/aide/config/cron.daily/aide: Not found in archive
+tar: Exiting with failure status due to previous errors
+da39a3ee5e6b4b0d3255bfef95601890afd80709  -
+=== V-260586 | medium ===
+grep: /etc/aide/aide.conf: No such file or directory
+=== V-260588 | medium ===
+ii  rsyslog                                        8.2312.0-3ubuntu9.1                      amd64        reliable system and kernel logging daemon
+enabled
+active
+=== V-260589 | medium ===
+=== V-260590 | medium ===
+=== V-260591 | medium ===
+not-found
+inactive
+=== V-260594 | medium ===
+grep: /etc/audit/auditd.conf: No such file or directory
+=== V-260597 | medium ===
+grep: /etc/audit/auditd.conf: No such file or directory
+stat: cannot statx '/var/log/audit/*': No such file or directory
+=== V-260598 | medium ===
+grep: /etc/audit/auditd.conf: No such file or directory
+stat: cannot statx '/var/log/audit/*': No such file or directory
+=== V-260599 | medium ===
+grep: /etc/audit/auditd.conf: No such file or directory
+=== V-260600 | medium ===
+grep: /etc/audit/auditd.conf: No such file or directory
+stat: cannot statx '/var/log/audit': No such file or directory
+=== V-260601 | medium ===
+ls: cannot access '/etc/audit/audit.rules': No such file or directory
+ls: cannot access '/etc/audit/auditd.conf': No such file or directory
+ls: cannot access '/etc/audit/rules.d/*': No such file or directory
+=== V-260602 | medium ===
+ls: cannot access '/etc/audit/audit.rules': No such file or directory
+ls: cannot access '/etc/audit/auditd.conf': No such file or directory
+ls: cannot access '/etc/audit/rules.d/*': No such file or directory
+=== V-260603 | medium ===
+ls: cannot access '/etc/audit/audit.rules': No such file or directory
+ls: cannot access '/etc/audit/auditd.conf': No such file or directory
+ls: cannot access '/etc/audit/rules.d/*': No such file or directory
+=== V-260604 | medium ===
+sudo: auditctl: command not found
+=== V-260605 | medium ===
+sudo: auditctl: command not found
+=== V-260606 | medium ===
+sudo: auditctl: command not found
+=== V-260607 | medium ===
+sudo: auditctl: command not found
+=== V-260608 | medium ===
+sudo: auditctl: command not found
+=== V-260609 | medium ===
+sudo: auditctl: command not found
+=== V-260610 | medium ===
+sudo: auditctl: command not found
+=== V-260611 | medium ===
+sudo: auditctl: command not found
+=== V-260612 | medium ===
+sudo: auditctl: command not found
+=== V-260613 | medium ===
+sudo: auditctl: command not found
+=== V-260614 | medium ===
+sudo: auditctl: command not found
+=== V-260615 | medium ===
+sudo: auditctl: command not found
+=== V-260616 | medium ===
+sudo: auditctl: command not found
+=== V-260617 | medium ===
+sudo: auditctl: command not found
+=== V-260618 | medium ===
+sudo: auditctl: command not found
+=== V-260619 | medium ===
+sudo: auditctl: command not found
+=== V-260620 | medium ===
+sudo: auditctl: command not found
+=== V-260621 | medium ===
+sudo: auditctl: command not found
+=== V-260622 | medium ===
+sudo: auditctl: command not found
+=== V-260623 | medium ===
+sudo: auditctl: command not found
+=== V-260624 | medium ===
+sudo: auditctl: command not found
+=== V-260625 | medium ===
+sudo: auditctl: command not found
+=== V-260626 | medium ===
+sudo: auditctl: command not found
+=== V-260627 | medium ===
+sudo: auditctl: command not found
+=== V-260628 | medium ===
+sudo: auditctl: command not found
+=== V-260629 | medium ===
+sudo: auditctl: command not found
+=== V-260630 | medium ===
+sudo: auditctl: command not found
+=== V-260631 | medium ===
+sudo: auditctl: command not found
+=== V-260632 | medium ===
+sudo: auditctl: command not found
+=== V-260633 | medium ===
+sudo: auditctl: command not found
+=== V-260634 | medium ===
+sudo: auditctl: command not found
+=== V-260635 | medium ===
+sudo: auditctl: command not found
+=== V-260636 | medium ===
+sudo: auditctl: command not found
+=== V-260637 | medium ===
+sudo: auditctl: command not found
+=== V-260638 | medium ===
+sudo: auditctl: command not found
+=== V-260639 | medium ===
+sudo: auditctl: command not found
+=== V-260640 | medium ===
+sudo: auditctl: command not found
+=== V-260641 | medium ===
+sudo: auditctl: command not found
+=== V-260642 | medium ===
+sudo: auditctl: command not found
+=== V-260643 | medium ===
+sudo: auditctl: command not found
+=== V-260644 | medium ===
+sudo: auditctl: command not found
+=== V-260645 | medium ===
+sudo: auditctl: command not found
+=== V-260646 | medium ===
+sudo: auditctl: command not found
+=== V-260647 | medium ===
+sudo: auditctl: command not found
+=== V-260648 | medium ===
+sudo: auditctl: command not found
+=== V-260649 | medium ===
+sudo: auditctl: command not found
+=== V-274860 | medium ===
+=== V-274861 | medium ===
+/etc/sudoers:root	ALL=(ALL:ALL) ALL
+/etc/sudoers:%admin ALL=(ALL) ALL
+/etc/sudoers:%sudo	ALL=(ALL:ALL) ALL
+=== V-274862 | medium ===
+sudo: auditctl: command not found
+sudo: auditctl: command not found
+=== V-274864 | medium ===
+ii  sssd                                           2.9.4-1.1ubuntu6.3                       amd64        System Security Services Daemon -- metapackage
+ii  sssd-ad                                        2.9.4-1.1ubuntu6.3                       amd64        System Security Services Daemon -- Active Directory back end
+ii  sssd-ad-common                                 2.9.4-1.1ubuntu6.3                       amd64        System Security Services Daemon -- PAC responder
+ii  sssd-common                                    2.9.4-1.1ubuntu6.3                       amd64        System Security Services Daemon -- common files
+ii  sssd-ipa                                       2.9.4-1.1ubuntu6.3                       amd64        System Security Services Daemon -- IPA back end
+ii  sssd-krb5                                      2.9.4-1.1ubuntu6.3                       amd64        System Security Services Daemon -- Kerberos back end
+ii  sssd-krb5-common                               2.9.4-1.1ubuntu6.3                       amd64        System Security Services Daemon -- Kerberos helpers
+ii  sssd-ldap                                      2.9.4-1.1ubuntu6.3                       amd64        System Security Services Daemon -- LDAP back end
+ii  sssd-proxy                                     2.9.4-1.1ubuntu6.3                       amd64        System Security Services Daemon -- proxy back end
+ii  libpam-sss:amd64                               2.9.4-1.1ubuntu6.3                       amd64        Pam module for the System Security Services Daemon
+ii  libnss-sss:amd64                               2.9.4-1.1ubuntu6.3                       amd64        Nss library for the System Security Services Daemon
+=== V-274865 | medium ===
+grep: /etc/sssd/sssd.conf: No such file or directory
+=== V-274866 | medium ===
+enabled
+inactive
+=== V-274867 | medium ===
+grep: /etc/sssd/sssd.conf: No such file or directory
+grep: /etc/sssd/sssd.conf: No such file or directory
+grep: /etc/sssd/sssd.conf: No such file or directory

@@ -1017,19 +1017,6 @@
           "title": "Ubuntu 22.04 LTS must disable account identifiers (individuals, groups, roles, and devices) after 35 days of inactivity.",
           "version": "TBD"
         },
-                "V-260548": {
-          "checkid": "C-64277r953455_chk",
-          "checktext": "Verify temporary accounts have been provisioned with an expiration date of 72 hours by using the following command: \n \n     $ sudo chage -l \u003Ctemporary_account_name\u003E | grep -E \u0027(Password|Account) expires\u0027 \n     Password expires     : Apr 1, 2024  \n     Account expires        : Apr 1, 2024  \n \nVerify each of these accounts has an expiration date set within 72 hours. \n \nIf any temporary accounts have no expiration date set or do not expire within 72 hours, this is a finding.",
-          "description": "Temporary accounts are privileged or nonprivileged accounts established during pressing circumstances, such as new software or hardware configuration or an incident response, where the need for prompt account activation requires bypassing normal account authorization procedures. If any inactive temporary accounts are left enabled on the system and are not either manually removed or automatically expired within 72 hours, the security posture of the system will be degraded and exposed to exploitation by unauthorized users or insider threat actors. \n \nTemporary accounts are different from emergency accounts. Emergency accounts, also known as \u0022last resort\u0022 or \u0022break glass\u0022 accounts, are local logon accounts enabled on the system for emergency use by authorized system administrators to manage a system when standard logon methods are failing or not available. Emergency accounts are not subject to manual removal or scheduled expiration requirements. \n \nThe automatic expiration of temporary accounts may be extended as needed by the circumstances, but it must not be extended indefinitely. A documented permanent account should be established for privileged users who need long-term maintenance accounts.\n\nSatisfies: SRG-OS-000002-GPOS-00002, SRG-OS-000123-GPOS-00064",
-          "fixid": "F-64185r953456_fix",
-          "fixtext": "Configure Ubuntu 22.04 LTS to expire temporary accounts after 72 hours by using the following command: \n \n     $ sudo chage -E $(date -d +3days +%Y-%m-%d) \u003Ctemporary_account_name\u003E",
-          "iacontrols": null,
-          "id": "V-260548",
-          "ruleID": "SV-260548r958364_rule",
-          "severity": "medium",
-          "title": "Ubuntu 22.04 LTS must automatically expire temporary accounts within 72 hours.",
-          "version": "TBD"
-        },
                 "V-260549": {
           "checkid": "C-64278r953458_chk",
           "checktext": "Verify that Ubuntu 22.04 LTS utilizes the \u0022pam_faillock\u0022 module by using the following command: \n \n     $ grep faillock \/etc\/pam.d\/common-auth \n \nauth     [default=die]  pam_faillock.so authfail \nauth     sufficient     pam_faillock.so authsucc \n \nIf the \u0022pam_faillock.so\u0022 module is not present in the \u0022\/etc\/pam.d\/common-auth\u0022 file, this is a finding. \n \nVerify the \u0022pam_faillock\u0022 module is configured to use the following options: \n \n     $ sudo grep -Ew \u0027silent|audit|deny|fail_interval|unlock_time\u0027 \/etc\/security\/faillock.conf \n     audit \n     silent \n     deny = 3 \n     fail_interval = 900 \n     unlock_time = 0 \n \nIf \u0022audit\u0022 is commented out, or is missing, this is a finding.\n\nIf \u0022silent\u0022 is commented out, or is missing, this is a finding.\n\nIf \u0022deny\u0022 is set to a value greater than \u00223\u0022, is commented out, or is missing, this is a finding.\n \nIf \u0022fail_interval\u0022 is set to a value greater than \u0022900\u0022, is commented out, or is missing, this is a finding.\n \nIf \u0022unlock_time\u0022 is not set to \u00220\u0022, is commented out, or is missing, this is a finding.",
